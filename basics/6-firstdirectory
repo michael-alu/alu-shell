@@ -1,3 +1,2 @@
 #!/bin/bash
-eval "cd /tmp 
-mkdir my_first_directory"
+eval "cd /tmp mkdir my_first_directory" | xargs -n1 bash -c
